@@ -10,14 +10,10 @@ def turn_count(board)
   counter
 end
 ###########################################################
-def iseven?(counter)
-  iseven = counter % 2
-end
-###########################################################
 def current_player
-  if iseven == false
-    current_player = "X"
-  else
+  if counter % 2 == 0
     current_player = "O"
+  else
+    current_player = "X"
   end
 end
