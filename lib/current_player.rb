@@ -15,7 +15,7 @@ def iseven?(counter)
 end
 ###########################################################
 def current_player
-  if iseven == true
+  if iseven == false
     current_player = "X"
   else
     current_player = "O"
