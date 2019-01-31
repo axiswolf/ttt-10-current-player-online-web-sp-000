@@ -12,11 +12,6 @@ end
 ###########################################################
 def iseven?(counter)
   iseven = counter % 2
-  if iseven == 0
-    true
-  else
-    false
-  end
 end
 ###########################################################
 def current_player
