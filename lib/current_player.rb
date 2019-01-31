@@ -4,5 +4,8 @@ def turn_count
 end
 
 def current_player
-
+  if turn_count == even
+    current_player = "X"
+  else
+    current_player = "O"
 end
