@@ -1,18 +1,18 @@
 def turn_count(board)
-  counter = 0
-  board.each do |turn|
-    if turn.downcase == "x" || turn.downcase == "o"
-      counter += 1
-      puts "#{counter}"
+  turns = 0
+  board.each do |space|
+    if space == "X" || space == "O"
+      turns += 1
     end
   end
-  turn_count = counter
+  return turns
 end
-###########################################################
-def current_player(turn_count)
-  if turn_count.even?
-    current_player = "X"
+
+def current_player(board)
+  turns = turn_count(board)
+  if turns % 2 == 0
+    return "X"
   else
-    current_player = "O"
+    return "O"
   end
 end
