@@ -1,7 +1,7 @@
 def turn_count(board)
   turn_count = board.size
   counter = 0
-  board.each do  |X|
+  board.each do |X|
     counter += 1
   end
 end
