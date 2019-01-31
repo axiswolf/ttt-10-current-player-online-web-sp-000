@@ -8,4 +8,5 @@ def current_player
     current_player = "X"
   else
     current_player = "O"
+  end
 end
