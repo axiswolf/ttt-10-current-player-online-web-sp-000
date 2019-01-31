@@ -1,6 +1,6 @@
 def turn_count(board)
   counter = 0
-  turn_count = board.size
+  turn_count == board.size
   while counter < turn_count
   counter += 1
   end
