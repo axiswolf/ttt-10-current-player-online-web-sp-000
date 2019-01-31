@@ -17,7 +17,7 @@ end
 def current_player
   if iseven == true
     current_player = "X"
-  else 
+  else
     current_player = "O"
   end
 end
