@@ -4,6 +4,8 @@ def turn_count(board)
   loop do
     if counter < turn_count
       counter += 1
+    else
+      break
     end
   end
 end
